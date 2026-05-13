@@ -92,5 +92,21 @@ vector_add.exe
 Always use nvcc compiler
 Always use .exe on Windows
 Always run after compile in same folder */
- 
+
+/*
+==========================
+EXPECTED SAMPLE OUTPUT
+==========================
+
+Enter size of vector: 5
+Enter elements of Vector A:
+1 2 3 4 5
+Enter elements of Vector B:
+5 4 3 2 1
+
+Result Vector:
+6 6 6 6 6
+
+==========================
+*/
 

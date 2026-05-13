@@ -54,3 +54,12 @@ Compile:
 g++ -fopenmp bubble.cpp -o bubble.exe
 Run:
 bubble.exe */
+
+
+/* Enter number of elements:
+5
+Enter elements:
+5 1 4 2 8
+
+Sorted Array:
+1 2 4 5 8  */

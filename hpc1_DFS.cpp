@@ -70,5 +70,14 @@ int main() {
     g.parallelDFS(start);
     return 0;
 }
-
+/*
+✅ Compile Command (Linux / WSL / macOS)
+g++ -fopenmp dfs.cpp -o dfs
+▶️ Run Command
+./dfs
+✅ Windows (MinGW / MSYS2)
+Compile:
+g++ -fopenmp dfs.cpp -o dfs.exe
+Run:
+dfs.exe*/
  

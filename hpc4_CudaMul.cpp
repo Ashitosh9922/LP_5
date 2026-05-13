@@ -80,5 +80,30 @@ int main() {
 
     return 0;
 }
+/*✅ 🟢 GOOGLE COLAB / LINUX (FINAL)
+1. Check GPU
+!nvidia-smi
+2. Save and compile CUDA file
+!nvcc matrix_mul_input.cu -o matrix_mul
+3. Run program
+!./matrix_mul
+⚠️ IMPORTANT (Colab input note)
 
- 
+Since your program uses:
+
+scanf()
+
+In Colab, input may not work smoothly in terminal execution.
+
+✔ Better option in Colab:
+
+run in terminal mode
+OR hardcode matrices for testing
+✅ 🟢 WINDOWS (FINAL)
+1. Check CUDA
+nvcc --version
+2. Compile
+nvcc matrix_mul_input.cu -o matrix_mul.exe
+3. Run
+matrix_mul.exe
+*/

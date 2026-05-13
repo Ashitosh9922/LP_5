@@ -57,4 +57,14 @@ int main() {
     return 0;
 }
 
- 
+/*
+✅ Compile Command
+Linux / WSL / macOS:
+g++ -fopenmp mergesort.cpp -o mergesort
+▶️ Run Command
+./mergesort
+✅ Windows (MinGW / MSYS2)
+Compile:
+g++ -fopenmp mergesort.cpp -o mergesort.exe
+Run:
+mergesort.exe  */

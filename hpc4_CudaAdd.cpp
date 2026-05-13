@@ -74,6 +74,23 @@ int main() {
     return 0;
 }
 
-
+/*✅ 🟢 GOOGLE COLAB / LINUX (FINAL)
+1. Check GPU
+!nvidia-smi
+2. Compile CUDA code
+!nvcc vector_add.cu -o vector_add
+3. Run program
+!./vector_add
+✅ 🟢 WINDOWS (FINAL)
+1. Check CUDA
+nvcc --version
+2. Compile
+nvcc vector_add.cu -o vector_add.exe
+3. Run
+vector_add.exe
+⚠️ IMPORTANT (1 LINE REMINDER)
+Always use nvcc compiler
+Always use .exe on Windows
+Always run after compile in same folder */
  
 

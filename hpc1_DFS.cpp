@@ -80,4 +80,19 @@ Compile:
 g++ -fopenmp dfs.cpp -o dfs.exe
 Run:
 dfs.exe*/
- 
+
+/*
+Enter number of vertices:
+5
+Enter number of edges:
+4
+Enter edges (u v):
+0 1
+0 2
+1 3
+1 4
+Enter starting vertex:
+0
+DFS Traversal:
+0 1 3 4 2  
+*/

@@ -50,3 +50,14 @@ Compile:
 g++ -fopenmp reduction.cpp -o reduction.exe
 Run:
 reduction.exe */
+
+/*
+Enter number of elements: 5
+Enter elements:
+10 20 30 40 50
+
+Results:
+Sum = 150
+Minimum = 10
+Maximum = 50
+Average = 30*/

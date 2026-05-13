@@ -68,3 +68,13 @@ Compile:
 g++ -fopenmp mergesort.cpp -o mergesort.exe
 Run:
 mergesort.exe  */
+
+
+/* Enter number of elements:
+5
+Enter elements:
+5 2 9 1 6
+
+Sorted Array:
+1 2 5 6 9 
+ */

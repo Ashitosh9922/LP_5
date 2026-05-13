@@ -43,4 +43,14 @@ int main() {
     return 0;
 }
 
- 
+/*
+✅ Compile Command
+Linux / WSL / macOS:
+g++ -fopenmp bubble.cpp -o bubble
+▶️ Run Command
+./bubble
+✅ Windows (MinGW / MSYS2)
+Compile:
+g++ -fopenmp bubble.cpp -o bubble.exe
+Run:
+bubble.exe */

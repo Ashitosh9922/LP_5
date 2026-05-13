@@ -40,5 +40,13 @@ int main() {
     return 0;
 }
 
-
- 
+✅ Compile Command
+Linux / WSL / macOS:
+g++ -fopenmp reduction.cpp -o reduction
+▶️ Run Command
+./reduction
+✅ Windows (MinGW / MSYS2)
+Compile:
+g++ -fopenmp reduction.cpp -o reduction.exe
+Run:
+reduction.exe */

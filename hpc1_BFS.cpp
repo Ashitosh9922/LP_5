@@ -86,5 +86,13 @@ int main() {
 
     return 0;
 }
-
+/*1. Compile the program
+g++ -fopenmp bfs.cpp -o bfs
+2. Run the program
+./bfs
+✅ On Windows (MinGW / MSYS2)
+1. Compile
+g++ -fopenmp bfs.cpp -o bfs.exe
+2. Run
+bfs.exe*/
  

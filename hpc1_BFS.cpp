@@ -95,4 +95,17 @@ g++ -fopenmp bfs.cpp -o bfs
 g++ -fopenmp bfs.cpp -o bfs.exe
 2. Run
 bfs.exe*/
+
+/*
+Enter number of vertices and edges:
+5 4
+Enter edges (u v):
+0 1
+0 2
+1 3
+1 4
+Enter starting vertex:
+0
+Parallel BFS: 0 1 2 3 4   
+*/
  
